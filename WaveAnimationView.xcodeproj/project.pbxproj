@@ -7,17 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF7CCF222288043800DB7244 /* WaveAnimationView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB8D4F2287C13B00536BEF /* WaveAnimationView.framework */; };
-		BF7CCF232288043800DB7244 /* WaveAnimationView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB8D4F2287C13B00536BEF /* WaveAnimationView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BFBB8D592287C13B00536BEF /* WaveAnimationView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBB8D4F2287C13B00536BEF /* WaveAnimationView.framework */; };
 		BFBB8D5E2287C13B00536BEF /* WaveAnimationViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB8D5D2287C13B00536BEF /* WaveAnimationViewTests.swift */; };
 		BFBB8D602287C13B00536BEF /* WaveAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBB8D522287C13B00536BEF /* WaveAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFBB8D6A2287C16500536BEF /* WaveAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB8D692287C16500536BEF /* WaveAnimationView.swift */; };
-		BFBB8DC72287EBE000536BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB8DC62287EBE000536BEF /* AppDelegate.swift */; };
-		BFBB8DC92287EBE100536BEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB8DC82287EBE000536BEF /* ViewController.swift */; };
-		BFBB8DCC2287EBE100536BEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBB8DCA2287EBE100536BEF /* Main.storyboard */; };
-		BFBB8DCE2287EBE200536BEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBB8DCD2287EBE200536BEF /* Assets.xcassets */; };
-		BFBB8DD12287EBE200536BEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBB8DCF2287EBE200536BEF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +36,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BF7CCF232288043800DB7244 /* WaveAnimationView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,20 +43,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BFBB8D4F2287C13B00536BEF /* WaveAnimationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaveAnimationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBB8D4F2287C13B00536BEF /* WaveAnimationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WaveAnimationView.framework; path = "/Users/quique/Proyectos/WaveAnimationView/build/Debug-iphoneos/WaveAnimationView.framework"; sourceTree = "<absolute>"; };
 		BFBB8D522287C13B00536BEF /* WaveAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveAnimationView.h; sourceTree = "<group>"; };
 		BFBB8D532287C13B00536BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFBB8D582287C13B00536BEF /* WaveAnimationViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveAnimationViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBB8D582287C13B00536BEF /* WaveAnimationViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WaveAnimationViewTests.xctest; path = "/Users/quique/Proyectos/WaveAnimationView/build/Debug-iphoneos/WaveAnimationViewTests.xctest"; sourceTree = "<absolute>"; };
 		BFBB8D5D2287C13B00536BEF /* WaveAnimationViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAnimationViewTests.swift; sourceTree = "<group>"; };
 		BFBB8D5F2287C13B00536BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFBB8D692287C16500536BEF /* WaveAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAnimationView.swift; sourceTree = "<group>"; };
-		BFBB8DC42287EBE000536BEF /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFBB8DC62287EBE000536BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFBB8DC82287EBE000536BEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFBB8DCB2287EBE100536BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BFBB8DCD2287EBE200536BEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFBB8DD02287EBE200536BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BFBB8DD22287EBE200536BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFBB8DC42287EBE000536BEF /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Demo.app; path = "/Users/quique/Proyectos/WaveAnimationView/build/Debug-iphoneos/Demo.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBB8D592287C13B00536BEF /* WaveAnimationView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF7CCF222288043800DB7244 /* WaveAnimationView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,20 +83,8 @@
 			children = (
 				BFBB8D512287C13B00536BEF /* WaveAnimationView */,
 				BFBB8D5C2287C13B00536BEF /* WaveAnimationViewTests */,
-				BFBB8DC52287EBE000536BEF /* Demo */,
-				BFBB8D502287C13B00536BEF /* Products */,
 				BFBB8DD62287EBFD00536BEF /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		BFBB8D502287C13B00536BEF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BFBB8D4F2287C13B00536BEF /* WaveAnimationView.framework */,
-				BFBB8D582287C13B00536BEF /* WaveAnimationViewTests.xctest */,
-				BFBB8DC42287EBE000536BEF /* Demo.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BFBB8D512287C13B00536BEF /* WaveAnimationView */ = {
@@ -133,19 +104,6 @@
 				BFBB8D5F2287C13B00536BEF /* Info.plist */,
 			);
 			path = WaveAnimationViewTests;
-			sourceTree = "<group>";
-		};
-		BFBB8DC52287EBE000536BEF /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				BFBB8DC62287EBE000536BEF /* AppDelegate.swift */,
-				BFBB8DC82287EBE000536BEF /* ViewController.swift */,
-				BFBB8DCA2287EBE100536BEF /* Main.storyboard */,
-				BFBB8DCD2287EBE200536BEF /* Assets.xcassets */,
-				BFBB8DCF2287EBE200536BEF /* LaunchScreen.storyboard */,
-				BFBB8DD22287EBE200536BEF /* Info.plist */,
-			);
-			path = Demo;
 			sourceTree = "<group>";
 		};
 		BFBB8DD62287EBFD00536BEF /* Frameworks */ = {
@@ -255,7 +213,7 @@
 				Base,
 			);
 			mainGroup = BFBB8D452287C13B00536BEF;
-			productRefGroup = BFBB8D502287C13B00536BEF /* Products */;
+			productRefGroup = BFBB8D452287C13B00536BEF;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -285,9 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBB8DD12287EBE200536BEF /* LaunchScreen.storyboard in Resources */,
-				BFBB8DCE2287EBE200536BEF /* Assets.xcassets in Resources */,
-				BFBB8DCC2287EBE100536BEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,8 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFBB8DC92287EBE100536BEF /* ViewController.swift in Sources */,
-				BFBB8DC72287EBE000536BEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,25 +286,6 @@
 			targetProxy = BFBB8D5A2287C13B00536BEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BFBB8DCA2287EBE100536BEF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFBB8DCB2287EBE100536BEF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BFBB8DCF2287EBE200536BEF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFBB8DD02287EBE200536BEF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BFBB8D612287C13B00536BEF /* Debug */ = {
